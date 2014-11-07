@@ -18,7 +18,7 @@ service statsd-agent start
 ```
 
 ## Installation (Other Linux/Windows/Mac)
-stasd-agent.py is just a python file. You can run it directly using python command:
+stasd-agent.py is really just a single python file. You can run it directly using python command:
 ```
 python statsd-agent.py (Ubuntu)
 ```
