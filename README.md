@@ -12,13 +12,13 @@ First, download both *statsd-agent.py* and *statsd-agent.conf*. Create a directo
 /opt/statsd-agent/statsd-agent.py
 /etc/init/statsd-agent.conf
 ```
-The statsd-agent.py will automatically start as service on system startup or you can start using upstart command:
+The statsd-agent.py will automatically start as service on system startup or you can manually start it using the following command:
 ```
 service statsd-agent start
 ```
 
 ## Installation (Other Linux/Windows/Mac)
-stasd-agent.py is just a python file. You may run it directly using python command:
+stasd-agent.py is just a python file. You can ru it directly using python command:
 ```
 python statsd-agent.py (Ubuntu)
 ```
@@ -27,10 +27,10 @@ You can use any of daemon tools to make it run as service/background. One of an 
 ## Running/Stopping
 Use upstart command to run/stop statsd-agent:
 ```
-sudo service statsd-agent start (Would START a service)
-sudo service statsd-agent stop (Would STOP a service until reboot or start it again)
-sudo service statsd-agent restart (Would RESTART the service)
-sudo service statsd-agent status (Would show the current STATUS of the service)
+service statsd-agent start (Would START a service)
+service statsd-agent stop (Would STOP a service until reboot or start it again)
+service statsd-agent restart (Would RESTART the service)
+service statsd-agent status (Would show the current STATUS of the service)
 ```
 More info about Ubuntu Upstart can be found at http://askubuntu.com/questions/19320/how-to-enable-or-disable-services
 
