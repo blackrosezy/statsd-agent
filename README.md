@@ -20,7 +20,7 @@ service statsd-agent start
 ## Installation (Other Linux/Windows/Mac)
 stasd-agent.py is really just a single python file. You can run it directly using python command:
 ```
-python statsd-agent.py (Ubuntu)
+python statsd-agent.py
 ```
 You can use any of daemon tools to make it run as service/background. One of an example is [Supervisor](http://supervisord.org/).
 
