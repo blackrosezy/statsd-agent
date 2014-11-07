@@ -22,10 +22,10 @@ You can use any daemon tools to make it run as service/background. One of an exa
 ## Running/Stopping (Ubuntu)
 Use upstart command to run/stop statsd-agent:
 ```
-service statsd-agent start (Would START a service)
-service statsd-agent stop (Would STOP a service until reboot or start it again)
-service statsd-agent restart (Would RESTART the service)
-service statsd-agent status (Would show the current STATUS of the service)
+service statsd-agent start
+service statsd-agent stop
+service statsd-agent restart
+service statsd-agent status
 ```
 More info about Ubuntu Upstart can be found at http://askubuntu.com/questions/19320/how-to-enable-or-disable-services
 
