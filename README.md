@@ -7,12 +7,7 @@ Quickstart
 ============
 
 ## Installation (Ubuntu)
-First, download both *statsd-agent.py* and *statsd-agent.conf*. Create a directory `/opt/statsd-agent` and place *statsd-agent.py* in it. Place the Upstart configuration file *statsd-agent.conf* in `/etc/init/`. Here is the final paths:
-```
-/opt/statsd-agent/statsd-agent.py
-/etc/init/statsd-agent.conf
-```
-The statsd-agent.py will automatically start as service on system startup or you can manually start it using the following command:
+First, download both *statsd-agent.py* and *statsd-agent.conf*. Create a directory `/opt/statsd-agent` and place *statsd-agent.py* in it. Place the Upstart configuration file *statsd-agent.conf* in `/etc/init/`. The statsd-agent.py will automatically start as service on system startup or you can manually start it using the following command:
 ```
 service statsd-agent start
 ```
