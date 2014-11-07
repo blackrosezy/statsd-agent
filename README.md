@@ -24,7 +24,7 @@ python statsd-agent.py (Ubuntu)
 ```
 You can use any of daemon tools to make it run as service/background. One of an example is [Supervisor](http://supervisord.org/).
 
-## Running/Stopping
+## Running/Stopping (Ubuntu)
 Use upstart command to run/stop statsd-agent:
 ```
 service statsd-agent start (Would START a service)
