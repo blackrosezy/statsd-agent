@@ -17,7 +17,7 @@ stasd-agent.py is really just a single python file. You can run it directly usin
 ```
 python statsd-agent.py
 ```
-You can use any of daemon tools to make it run as service/background. One of an example is [Supervisor](http://supervisord.org/).
+You can use any daemon tools to make it run as service/background. One of an example is [Supervisor](http://supervisord.org/).
 
 ## Running/Stopping (Ubuntu)
 Use upstart command to run/stop statsd-agent:
